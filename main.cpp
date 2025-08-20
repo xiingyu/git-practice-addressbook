@@ -3,11 +3,11 @@
 #include <string>
 #include <algorithm>
 #include "contact.h"
-#include "showMenu.h"
-#include "addContact.h";
-#include "listContacts.h"
-#include "findContact.h"
-#include "deleteContact.h"
+#include "showMenu/showMenu.h"
+#include "addContact/addContact.h"
+#include "listContac/listContac.h"
+#include "findContact/findContact.h"
+#include "deleteContact/deleteContact.hpp"
 using namespace std;
 
 int main() {

@@ -7,7 +7,7 @@
 using namespace std;
 
 extern vector<Contact> contacts;
-extern nextId;
+extern int nextId;
 
 void addContact();
 

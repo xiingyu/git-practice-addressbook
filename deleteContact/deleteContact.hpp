@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "../contact.h"
-using namepsace std;
+using namespace std;
 
 void deleteContact();
 
