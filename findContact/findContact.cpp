@@ -1,5 +1,5 @@
-#include "find_contact.h"
-#include "../contact.h"
+#include "findContact.hpp"
+#include "../contact.hpp"
 using namespace std;
 
 void findContact() {
