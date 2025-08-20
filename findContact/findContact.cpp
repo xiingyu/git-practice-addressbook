@@ -1,4 +1,4 @@
-#include "find_contact.h"
+#include "findContact.h"
 #include "../contact.h"
 using namespace std;
 
