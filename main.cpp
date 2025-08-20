@@ -2,11 +2,11 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include "contact.h"
-#include "showMenu/showMenu.h"
+#include "contact.hpp"
+#include "showMenu/showMenu.hpp"
 #include "addContact/addContact.hpp"
-#include "listContac/listContac.h"
-#include "findContact/findContact.h"
+#include "listContac/listContac.hpp"
+#include "findContact/findContact.hpp"
 #include "deleteContact/deleteContact.hpp"
 using namespace std;
 

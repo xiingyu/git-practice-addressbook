@@ -1,4 +1,4 @@
-#include "contact.h"
+#include "contact.hpp"
 
 // 전역 변수 정의 (메모리 할당)
 vector<Contact> contacts;

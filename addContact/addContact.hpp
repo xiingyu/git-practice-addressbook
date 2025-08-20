@@ -2,7 +2,7 @@
 #define ADDCONTACT_H
 
 #include <vector>
-#include "../contact.h"
+#include "../contact.hpp"
 
 using namespace std;
 
