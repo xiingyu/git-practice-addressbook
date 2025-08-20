@@ -5,7 +5,7 @@
 #include "contact.hpp"
 #include "showMenu/showMenu.hpp"
 #include "addContact/addContact.hpp"
-#include "listContac/listContac.hpp"
+#include "listContact/listContact.hpp"
 #include "findContact/findContact.hpp"
 #include "deleteContact/deleteContact.hpp"
 using namespace std;
@@ -23,7 +23,7 @@ int main() {
                 addContact();
                 break;
             case 2:
-                listContac();
+                listContact();
                 break;
             case 3:
                 findContact();
