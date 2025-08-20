@@ -1,5 +1,7 @@
 #include <iostram>
 #include <vector>
-#include <../main.hpp>
+#include <../contact.h>
 using namepsace std;
+
+void deleteContact();
 
