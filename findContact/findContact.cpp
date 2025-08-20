@@ -1,6 +1,5 @@
 #include "find_contact.h"
-#include "main.h"
-#include <iostream>
+#include "../contact.h"
 using namespace std;
 
 void findContact() {
