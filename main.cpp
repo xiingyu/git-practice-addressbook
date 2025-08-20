@@ -23,7 +23,7 @@ int main() {
                 addContact();
                 break;
             case 2:
-                listContacts();
+                listContac();
                 break;
             case 3:
                 findContact();
