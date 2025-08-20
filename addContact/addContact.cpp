@@ -18,7 +18,7 @@ bool validateEmail(const string& email)
 
 bool validateName(const string& name) 
 {
-    regex namePattern(R"(^[가-힣]{2,6}( [가-힣]{2,6})?$)");
+    regex namePattern(R"(^[가-힣]{2,}$)");
     return regex_match(name, namePattern);
 }
 
