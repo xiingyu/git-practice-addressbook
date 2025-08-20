@@ -14,7 +14,8 @@ struct Contact {
 };
 
 // 전역 변수 선언 (정의 아님)
-extern vector<Contact> contacts;
-extern int nextId;
+
 
 #endif // CONTACT_H
+extern vector<Contact> contacts;
+extern int nextId;

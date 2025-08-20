@@ -1,4 +1,4 @@
-#include "contact.h"
+#include "contact.hpp"
 #include <iostream>
 using namespace std;
 
