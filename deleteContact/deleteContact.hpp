@@ -1,6 +1,6 @@
-#include <iostram>
+#include <iostream>
 #include <vector>
-#include <../contact.h>
+#include "../contact.h"
 using namepsace std;
 
 void deleteContact();
