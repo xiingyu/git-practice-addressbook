@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
-#include "../contact.h"
+#include <algorithm>
+#include "../contact.hpp"
 using namespace std;
 
 void deleteContact();
