@@ -26,22 +26,23 @@ void addContact()
 {
     Contact c;
     cout << "name(ex. 김수한무): ";
-    cin >> c.name;
-    if (validateName(c.name))
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    getline(cin, c.name);
+    if (!validateName(c.name))
     {
         cout << "Error: Invalid input.\n";
         return;
     }
     cout << "phone number(ex. 010-1234-5678): ";
     cin >> c.phone;
-    if (validatePhone(c.phone))
+    if (!validatePhone(c.phone))
     {
         cout << "Error: Invalid input.\n";
         return;
     }
     cout << "email(ex. temporal@gmail.com): ";
     cin >> c.email;
-    if (validateEmail(c.email))
+    if (!validateEmail(c.email))
     {
         cout << "Error: Invalid input.\n";
         return;
