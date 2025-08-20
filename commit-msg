@@ -1,0 +1,16 @@
+#!/bin/bash
+
+commit_msg_file=$1
+commit_msg=$(head -n 1 "$commit_msg_file")
+
+#허용할 커밋 타입 정의
+pattern="^(feat|fix|docs): "
+
+if ! echo "$commit_msg" | grep -Eq "$pattern"; then
+  echo "X Commit message must start with 'feat: ', 'fix: ', or 'docs: '"
+  echo "  Example: feat: 로그인 기능 추가"
+  exit 1
+fi
+
+echo "V Commit message format check passed"
+exit 0
