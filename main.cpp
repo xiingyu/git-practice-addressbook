@@ -10,18 +10,6 @@
 #include "deleteContact.h"
 using namespace std;
 
-// 연락처 구조체
-struct Contact {
-    int id;
-    string name;
-    string phone;
-    string email;
-};
-
-// 전역 벡터 (간단하게 메모리에 저장, 나중에 파일 입출력으로 확장 가능)
-vector<Contact> contacts;
-int nextId = 1;
-
 int main() {
     int choice;
 
