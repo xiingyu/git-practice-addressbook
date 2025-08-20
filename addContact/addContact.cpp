@@ -1,6 +1,6 @@
 #include "addContact.h"
 
-void addContact(Contact c)
+void addContact()
 {
     c.id = nextId++;
     cout << "name: ";
